@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function setDark()
+        {
+           document.getElementById("btn").className = "btn-dark";
+        }
+
+        function setLight()
+        {
+            document.getElementById("btn").className = "btn-light";
+        }
+
+</script>
+        <style>
+        .btn-dark{
+            background-color: black;
+            color: white;
+        }
+
+        .btn-light{
+          background-color: orange;
+          color: tomato;
+        }
+            
+            
+            
+            
+</style>
+    
+</head>
+<body>
+    <button id="btn" onmouseover="setDark()" onmouseout="setLight()">Button</button>
+</body>
+</html>
